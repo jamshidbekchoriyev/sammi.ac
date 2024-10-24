@@ -49,4 +49,4 @@ const a = prompt("Oxirgi ko'rgan serialingiz?"),
 SeriesDb.series.a = b;
 SeriesDb.series.c = d;
 
-console.log(numberOfSeries)
+console.log(SeriesDb)
