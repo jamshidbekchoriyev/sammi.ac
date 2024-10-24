@@ -46,7 +46,7 @@ const a = prompt("Oxirgi ko'rgan serialingiz?"),
     c = prompt("Oxirgi ko'rgan serialingiz?"),
     d = prompt("Nechi baho berasiz?");
 
-SeriesDb.series.a = b;
-SeriesDb.series.c = d;
+SeriesDb.series[a] = b;
+SeriesDb.series[c] = d;
 
 console.log(SeriesDb)
